@@ -5,6 +5,7 @@ import Teaser from './Teaser'
 import configuration from '../../gatsby-config'
 import Grid from "./grid"
 import Feature from "./feature"
+import InternalLinks from "./InternalLinks"
 
 const sbConfig = configuration.plugins.find((item) => item.resolve === 'gatsby-source-storyblok')
 
@@ -14,7 +15,8 @@ storyblokInit({
   components: {
     teaser: Teaser,
     grid: Grid,
-    feature: Feature
+    feature: Feature,
+    'internal-links': InternalLinks
   }
 });
 
