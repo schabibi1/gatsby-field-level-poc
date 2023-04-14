@@ -14,9 +14,8 @@ const StoryblokEntry = ({ data }) => {
   return (
     <Layout>
       <div {...storyblokEditable(story.content)}>
-        <h1>{story.name}</h1>
+        <h1>FS Route generated stories</h1>
         {components}
-        <p>full_slug: {story.full_slug}</p>
       </div>
     </Layout>
   )
