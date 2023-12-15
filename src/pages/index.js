@@ -6,6 +6,7 @@ import { StoryblokComponent, storyblokEditable, useStoryblokState } from "gatsby
 import Layout from "../components/layout"
 
 const IndexPage = ({ data }) => {
+  console.log(data)
   let story = data.storyblokEntry
   story = useStoryblokState(story)
 

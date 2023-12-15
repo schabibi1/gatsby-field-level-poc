@@ -16,7 +16,7 @@ storyblokInit({
     teaser: Teaser,
     grid: Grid,
     feature: Feature,
-    'internal-links': InternalLinks
+    'internal_links': InternalLinks
   }
 });
 
